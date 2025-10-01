@@ -10,7 +10,7 @@ public class ScheduleManager {
         observers = new ArrayList<>();
     }
 
-    // Singleton instance
+ 
     public static ScheduleManager getInstance() {
         if (instance == null) {
             instance = new ScheduleManager();
@@ -56,3 +56,4 @@ public class ScheduleManager {
                t2.getStartTime().compareTo(t1.getEndTime()) < 0;
     }
 }
+
